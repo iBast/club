@@ -1,4 +1,7 @@
 {
+    "2lenet/credential-bundle": {
+        "version": "1.2.0"
+    },
     "2lenet/crudit-bundle": {
         "version": "1.0.5"
     },
@@ -140,8 +143,17 @@
     "phpoffice/phpspreadsheet": {
         "version": "1.23.0"
     },
+    "phpstan/extension-installer": {
+        "version": "1.1.0"
+    },
     "phpstan/phpdoc-parser": {
         "version": "1.5.1"
+    },
+    "phpstan/phpstan": {
+        "version": "1.7.0"
+    },
+    "phpstan/phpstan-symfony": {
+        "version": "1.1.8"
     },
     "psr/cache": {
         "version": "3.0.0"

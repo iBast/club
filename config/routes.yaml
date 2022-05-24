@@ -8,4 +8,6 @@ kernel:
 
 dashboard_widgets:
     resource: "@LleDashboardBundle/Resources/config/routes.yaml"
-    
+
+credential:
+    resource: "@LleCredentialBundle/Resources/config/routes.yaml"

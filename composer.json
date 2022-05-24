@@ -7,6 +7,7 @@
         "php": ">=8.0.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "2lenet/credential-bundle": "^1.2",
         "2lenet/crudit-bundle": "^1.0",
         "2lenet/dashboard2-bundle": "^2.2",
         "doctrine/annotations": "^1.0",
@@ -52,7 +53,8 @@
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
             "symfony/flex": true,
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "phpstan/extension-installer": true
         },
         "optimize-autoloader": true,
         "preferred-install": {
@@ -100,6 +102,8 @@
         }
     },
     "require-dev": {
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-symfony": "^1.1",
         "symfony/debug-bundle": "6.0.*",
         "symfony/maker-bundle": "^1.0",
         "symfony/stopwatch": "6.0.*",

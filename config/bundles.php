@@ -16,4 +16,5 @@ return [
     FOS\JsRoutingBundle\FOSJsRoutingBundle::class => ['all' => true],
     Lle\CruditBundle\LleCruditBundle::class => ['all' => true],
     Lle\DashboardBundle\LleDashboardBundle::class => ['all' => true],
+    Lle\CredentialBundle\LleCredentialBundle::class => ['all' => true],
 ];
