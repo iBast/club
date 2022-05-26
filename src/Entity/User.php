@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\UserRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Lle\CredentialBundle\Entity\Group;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -25,6 +26,9 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     #[ORM\Column(type: 'string')]
     private $password;
+
+    #[ORM\ManyToOne(targetEntity: Group::class)]
+    private $profil;
 
     public function getId(): ?int
     {
@@ -62,6 +66,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         // guarantee every user at least has ROLE_USER
         $roles[] = 'ROLE_USER';
         $roles[] = 'ROLE_ADMIN_DROITS';
+        $roles[] = 'ROLE_SUPER_ADMIN';
 
         return array_unique($roles);
     }
@@ -100,5 +105,17 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     public function __toString()
     {
         return $this->email;
+    }
+
+    public function getProfil(): ?Group
+    {
+        return $this->profil;
+    }
+
+    public function setProfil(?Group $profil): self
+    {
+        $this->profil = $profil;
+
+        return $this;
     }
 }

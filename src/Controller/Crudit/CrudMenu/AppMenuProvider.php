@@ -18,11 +18,26 @@ class AppMenuProvider implements MenuProviderInterface
         Path::new('homepage'),
         Icon::new('home')
       ),
-      ExternalLinkElement::new(
-        'menu.google',
-        'https://www.google.com',
-        Icon::new('/img/icons/google.svg', Icon::TYPE_IMG)
+      LinkElement::new(
+        'users',
+        Path::new('app_crudit_user_index'),
+        Icon::new('group')
       ),
+      LinkElement::new(
+        'credentials',
+        Path::new('admin_credential'),
+        Icon::new('lock')
+      ),
+      LinkElement::new(
+        'credentials.group',
+        Path::new('app_crudit_groupcredential_index'),
+        Icon::new('lock')
+      ),
+      // ExternalLinkElement::new(
+      //   'menu.google',
+      //   'https://www.google.com',
+      //   Icon::new('/img/icons/google.svg', Icon::TYPE_IMG)
+      // ),
     ];
   }
 }

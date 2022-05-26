@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b9c1ccb308c5f6145636f325d5a0377",
+    "content-hash": "fede1838c2c08a28f9aeb006d1da45bf",
     "packages": [
         {
             "name": "2lenet/credential-bundle",

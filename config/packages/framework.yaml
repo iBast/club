@@ -16,6 +16,10 @@ framework:
     #fragments: true
     php_errors:
         log: true
+    
+    cache:
+        app: cache.adapter.filesystem
+        system: cache.adapter.system
 
 when@test:
     framework:
