@@ -1,8 +1,20 @@
 {
     "type": "project",
     "license": "proprietary",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "name": "2lenet/pdf-generator-bundle",
+            "type": "github",
+            "url": "https://github.com/2lenet/PdfGeneratorBundle.git"
+        },
+        {
+            "name": "2lenet/hermes-bundle",
+            "type": "github",
+            "url": "https://github.com/2lenet/HermesBundle.git"
+        }
+    ],
     "require": {
         "php": ">=8.0.2",
         "ext-ctype": "*",
@@ -10,6 +22,8 @@
         "2lenet/credential-bundle": "^1.2",
         "2lenet/crudit-bundle": "^1.0",
         "2lenet/dashboard2-bundle": "^2.2",
+        "2lenet/hermes-bundle": "dev-main",
+        "2lenet/pdf-generator-bundle": "dev-master",
         "doctrine/annotations": "^1.0",
         "doctrine/dbal": "^3.3",
         "doctrine/doctrine-bundle": "^2.6",

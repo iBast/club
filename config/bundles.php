@@ -17,4 +17,7 @@ return [
     Lle\CruditBundle\LleCruditBundle::class => ['all' => true],
     Lle\DashboardBundle\LleDashboardBundle::class => ['all' => true],
     Lle\CredentialBundle\LleCredentialBundle::class => ['all' => true],
+    Lle\PdfGeneratorBundle\LlePdfGeneratorBundle::class => ['all' => true],
+    Vich\UploaderBundle\VichUploaderBundle::class => ['all' => true],
+    Lle\HermesBundle\LleHermesBundle::class => ['all' => true],
 ];

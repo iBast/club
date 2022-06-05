@@ -8,6 +8,15 @@
     "2lenet/dashboard2-bundle": {
         "version": "2.2.3"
     },
+    "2lenet/hermes-bundle": {
+        "version": "dev-main"
+    },
+    "2lenet/pdf-generator-bundle": {
+        "version": "dev-master"
+    },
+    "alexanderpavlov/pdfmerger": {
+        "version": "1.0.5"
+    },
     "behat/transliterator": {
         "version": "v1.5.0"
     },
@@ -86,6 +95,9 @@
     "doctrine/sql-formatter": {
         "version": "1.1.2"
     },
+    "dompdf/dompdf": {
+        "version": "v1.2.2"
+    },
     "egulias/email-validator": {
         "version": "3.1.2"
     },
@@ -110,8 +122,20 @@
     "gedmo/doctrine-extensions": {
         "version": "v3.7.0"
     },
+    "jms/metadata": {
+        "version": "2.6.1"
+    },
     "laminas/laminas-code": {
         "version": "4.5.1"
+    },
+    "laminas/laminas-escaper": {
+        "version": "2.10.0"
+    },
+    "laminas/laminas-stdlib": {
+        "version": "3.4.0"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.5.0"
     },
     "maennchen/zipstream-php": {
         "version": "2.2.1"
@@ -131,6 +155,12 @@
     "nikic/php-parser": {
         "version": "v4.13.2"
     },
+    "phenx/php-font-lib": {
+        "version": "0.5.4"
+    },
+    "phenx/php-svg-lib": {
+        "version": "0.4.1"
+    },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
     },
@@ -142,6 +172,9 @@
     },
     "phpoffice/phpspreadsheet": {
         "version": "1.23.0"
+    },
+    "phpoffice/phpword": {
+        "version": "0.18.3"
     },
     "phpstan/extension-installer": {
         "version": "1.1.0"
@@ -182,6 +215,9 @@
     "psr/simple-cache": {
         "version": "2.0.0"
     },
+    "sabberworm/php-css-parser": {
+        "version": "8.4.0"
+    },
     "sensio/framework-extra-bundle": {
         "version": "6.2",
         "recipe": {
@@ -193,6 +229,18 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "setasign/fpdf": {
+        "version": "1.8.4"
+    },
+    "setasign/fpdi": {
+        "version": "v2.3.6"
+    },
+    "setasign/fpdi-fpdf": {
+        "version": "v2.3.0"
+    },
+    "setasign/tfpdf": {
+        "version": "v1.32"
     },
     "symfony/asset": {
         "version": "v6.0.7"
@@ -311,6 +359,18 @@
     },
     "symfony/intl": {
         "version": "v6.0.8"
+    },
+    "symfony/lock": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "5.2",
+            "ref": "a1c8800e40ae735206bb14586fdd6c4630a51b8d"
+        },
+        "files": [
+            "config/packages/lock.yaml"
+        ]
     },
     "symfony/mailer": {
         "version": "6.0",
@@ -572,6 +632,9 @@
     "symfony/yaml": {
         "version": "v6.0.3"
     },
+    "tecnickcom/tcpdf": {
+        "version": "6.4.4"
+    },
     "twig/extra-bundle": {
         "version": "v3.4.0"
     },
@@ -583,6 +646,18 @@
     },
     "twig/twig": {
         "version": "v3.4.1"
+    },
+    "vich/uploader-bundle": {
+        "version": "1.19",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.7",
+            "ref": "c4f5755b37fb65b9c6a3cbdae91205c15a137ed4"
+        },
+        "files": [
+            "config/packages/vich_uploader.yaml"
+        ]
     },
     "webmozart/assert": {
         "version": "1.10.0"

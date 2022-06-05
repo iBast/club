@@ -11,3 +11,11 @@ dashboard_widgets:
 
 credential:
     resource: "@LleCredentialBundle/Resources/config/routes.yaml"
+
+hermes:
+  resource: "@LleHermesBundle/Resources/config/routes.xml"
+  prefix: /hermes
+
+lle_pdf_generator:
+    resource: "@LlePdfGeneratorBundle/Resources/routing/routes.yaml"
+    prefix: /

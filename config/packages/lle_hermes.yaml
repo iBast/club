@@ -1,0 +1,7 @@
+lle_hermes:
+  root_dir: '%kernel.project_dir%/public'
+  app_secret: '%env(APP_SECRET)%'
+  app_domain: '%env(APP_DOMAIN)%'
+  bounce_email: hello@bastienmunck.fr
+  bounce_host: bastienmunck.fr
+  bounce_pass: toto

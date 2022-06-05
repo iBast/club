@@ -1,0 +1,4 @@
+lle_pdf_generator:
+  path: "data/pdfmodel"
+  default_generator: "word_to_pdf"
+  class: 'Lle\PdfGeneratorBundle\Entity\PdfModel'
